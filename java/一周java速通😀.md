@@ -570,7 +570,7 @@ a2.eat();  // Cat 的 eat()
     
 3. **需要类型检查**：通常应先使用 `instanceof` 进行检查
 ```java
- animal d = new Dog();    // 向上转型隐式进行
+ animal a1 = new Dog();    // 向上转型隐式进行
 if (a1 instanceof Dog) {  // 对象 instanceof 类型
     Dog d = (Dog) a1;     // ai为dog类型的,d为a1的引用，并没有开辟新的空间，只是改变了标识，让编译器认为d为dog类型
     d.bark();
