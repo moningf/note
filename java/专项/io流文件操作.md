@@ -12,6 +12,7 @@ inputStream-> FileinputStream
 outStream-> FileoutStream
 
 
+#字节输入流
 # 字节输出流
 ## file.write()
 ```java
@@ -54,7 +55,7 @@ windows 上也可以只写\r或\n,java底层会自动补全
 FileoutputStream file = new FileputStream("address",boolen); //后面传入ture时就能打开续写,默认为false
 ```
 
-
+ 
 # 字节输入流
 
 ## file.read()
@@ -72,8 +73,58 @@ System.out.println((char)b);
 	如果文件不存在,直接报错
 
 
+# 文件拷贝的方法
+1. 使用FileOutStream和FileInputStream,并通过file.read(byte[])和file.write(byte[])来完成
 
 
+# io流中的不同jdk版本捕获异常的方法
+
+```java
+try{
+	FileOutStream file = new FileOutStream("a.txt");
+	file.write(97);
+	} catch (IOException e){
+	e.printStackTrace()	;
+	}
+	finally{
+	file.close;    //filnally语句一定会被执行,除非jvm虚拟机关闭
+	}
+```
+
+jdk7
+```java
+	try (FileInputStream fis =new FileInputStream(address);
+	FileOutputStream fos = new FileOutputStream(address) ){
+	int len;
+	byte[] bytes = new byte[1024*1024*5];
+	while((len = fis.read(bytes) != -1){
+		fos.write(bytes,0,len);
+	}
+	}
+		catch(IOException e){
+	 e.printStackTrace();
+	}
+```
+
+jdk9
+
+```java
+FileInputStream fis =new FileInputStream(address);
+	FileOutputStream fos = new FileOutputStream(address);
+	try (fis,fos){
+	int len;
+	byte[] bytes = new byte[1024*1024*5];
+	while((len = fis.read(bytes) != -1){
+		fos.write(bytes,0,len);
+	}
+	}
+		catch(IOException e){
+	 e.printStackTrace();
+	}
+
+```
+
+实际开发中会直接throws抛出异常,后期会统一管理异常
 
 
 

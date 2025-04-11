@@ -674,5 +674,6 @@ class MyException extends Exception {
 
 
 多线程基础(线程&并发)
+[[线程|笔记]]
 java文件操作(io流)
 [[io流文件操作|笔记]]
