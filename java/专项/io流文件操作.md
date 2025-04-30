@@ -11,7 +11,6 @@
 inputStream-> FileinputStream
 outStream-> FileoutStream
 
-
 #字节输入流
 # 字节输出流
 ## file.write()
@@ -125,6 +124,7 @@ FileInputStream fis =new FileInputStream(address);
 ```
 
 实际开发中会直接throws抛出异常,后期会统一管理异常
+
 
 
 
