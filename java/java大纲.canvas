@@ -45,15 +45,16 @@
 		{"id":"b732c8107d14efab","type":"text","text":"基础语法","x":-637,"y":-1550,"width":277,"height":50,"color":"3"},
 		{"id":"3a37c8b1dd4bed74","type":"text","text":"面向对象编程","x":-637,"y":-1120,"width":277,"height":50,"color":"3"},
 		{"id":"58bcfa91a57f8f70","type":"text","text":"[[封装]]","x":110,"y":-1170,"width":154,"height":50},
-		{"id":"89a9643ef255fd17","type":"text","text":"继承","x":110,"y":-1120,"width":154,"height":50},
+		{"id":"89a9643ef255fd17","type":"text","text":"[[继承]]","x":110,"y":-1120,"width":154,"height":50},
 		{"id":"6befc7a4d52b8c63","type":"text","text":"多态","x":110,"y":-1070,"width":154,"height":50},
-		{"id":"3c637390c711c197","type":"text","text":"权限","x":110,"y":-1021,"width":154,"height":50},
+		{"id":"3c637390c711c197","type":"text","text":"[[权限]]","x":110,"y":-1021,"width":154,"height":50},
 		{"id":"324a29958433ef6a","type":"text","text":"[[类与对象]]","x":110,"y":-1220,"width":154,"height":50},
 		{"id":"5123da51f2bbc94a","type":"text","text":"[[方法]]","x":-251,"y":-1374,"width":183,"height":50},
 		{"id":"c3af81013c7ff2b8","type":"text","text":"[[Java的对象内存图]]","x":549,"y":-1195,"width":355,"height":50},
 		{"id":"2a684699021a0e84","type":"text","text":"[[基本数据类型和引用数据类型]]","x":549,"y":-1245,"width":355,"height":50},
 		{"id":"8d3449d258ed6896","type":"text","text":"[[this的内存原理&成员和局部]]","x":549,"y":-1145,"width":355,"height":50},
-		{"id":"942ba8a17e6d744e","x":38,"y":-733,"width":250,"height":60,"type":"text","text":"[[字符串]]"}
+		{"id":"942ba8a17e6d744e","type":"text","text":"[[字符串]]","x":38,"y":-733,"width":250,"height":60},
+		{"id":"18976c2f5baceeb0","type":"text","text":"[[集合]]","x":18,"y":-527,"width":184,"height":50}
 	],
 	"edges":[
 		{"id":"c92207255fcc4a7d","fromNode":"8ec0b1121bef525e","fromSide":"right","toNode":"b732c8107d14efab","toSide":"left"},
@@ -108,6 +109,7 @@
 		{"id":"f4535b682d106020","fromNode":"324a29958433ef6a","fromSide":"right","toNode":"2a684699021a0e84","toSide":"left"},
 		{"id":"f887779a99eea640","fromNode":"324a29958433ef6a","fromSide":"right","toNode":"c3af81013c7ff2b8","toSide":"left"},
 		{"id":"d8feb09be41e87f0","fromNode":"324a29958433ef6a","fromSide":"right","toNode":"8d3449d258ed6896","toSide":"left"},
-		{"id":"49b357a18c4f58a6","fromNode":"acd734a9f41a2727","fromSide":"right","toNode":"942ba8a17e6d744e","toSide":"left"}
+		{"id":"49b357a18c4f58a6","fromNode":"acd734a9f41a2727","fromSide":"right","toNode":"942ba8a17e6d744e","toSide":"left"},
+		{"id":"8d8c1ccc99894dd5","fromNode":"e8b89d7a71a15616","fromSide":"right","toNode":"18976c2f5baceeb0","toSide":"left"}
 	]
 }
