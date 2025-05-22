@@ -100,7 +100,7 @@ public class bigorsmall {
 ### 目标： 学习数组，类与对象，接口和抽象类
 
 #### 数组
--- 写一个数组，以及遍历的类
+- 写一个数组，以及遍历的类
 ```java
 public class arr {
     public static void main(String[] args) {
@@ -642,7 +642,7 @@ java集合框架,异常处理机制
 try {
     // 可能抛异常的代码
 } catch (ExceptionType e) {
-    // 异常处理
+    // 异常处理e.printStackTrace();
 } finally {
     // 无论是否异常，都会执行（释放资源）
 }
@@ -653,7 +653,7 @@ try {
 class MyException extends Exception {
     public MyException(String message) {
         super(message);
-    }
+    } 
 }
 ```
 
