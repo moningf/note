@@ -2,7 +2,7 @@
 
 # git 教程
 
-<img src=".\git图片\指令.jpg" style="zoom: 150%;" />
+<img src="./git图片/指令.jpg" style="zoom: 150%;" />
 
 ## 一.  初始化配置
 
@@ -14,8 +14,7 @@
 
 `git config --global --list`								 <!--查看用户名和邮箱-->
 
-------
-
+---
 
 
 
@@ -384,15 +383,15 @@ git merge dev                      //合并分支
 
 此时提示合并冲突
 
-![](.\git图片\分支 4.png)
+![](./git图片/分支 4.png)
 
 同时文件内容也发生改变
 
-![](.\git图片\分支5.png)
+![](./git图片/分支5.png)
 
 此时需要手动处理冲突, 手工编辑文件内容
 
-![](.\git图片\分支6.png)
+![](./git图片/分支6.png)
 
 此时再将文件提交
 
@@ -423,7 +422,7 @@ git commit -m "提交说明"
 
 此时main分支上会在合并时多一次提交记录(在main分支上合并)			
 
-![](.\git图片\回退和rebase.jpg)
+![](./git图片/回退和rebase.jpg)
 
 #####  优点:
 
@@ -451,7 +450,7 @@ git commit -m "提交说明"
 
 **如下图所示**
 
-![](.\git图片\rebase.jpg)
+![](./git图片/rebase.jpg)
 
 
 
