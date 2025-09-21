@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"8c00deb1d7aedeeb","x":-118,"y":1840,"width":1120,"height":523,"type":"group","label":"Gitee"},
+		{"id":"c75204a6c986897a","type":"group","x":-980,"y":911,"width":1120,"height":496,"label":"demo"},
+		{"id":"d35877b5d6f93d84","x":172,"y":1900,"width":781,"height":419,"type":"group","label":"fu"},
+		{"id":"edef4dfc04fe847f","x":580,"y":1159,"width":314,"height":417,"type":"group","label":"远程仓库地址"},
+		{"id":"3aa972b20541ea26","x":185,"y":1159,"width":305,"height":417,"type":"group","label":"本地分支"},
+		{"id":"e79ce7619013dfc1","x":-94,"y":1883,"width":235,"height":432,"type":"group","label":"user_1"},
+		{"id":"fddab9d4e5119090","x":-600,"y":997,"width":271,"height":350,"type":"group","label":"暂存区"},
+		{"id":"ac84aaf02152d9cb","x":-160,"y":997,"width":248,"height":350,"type":"group","label":"本地仓库"},
+		{"id":"af1fee8fe04fcf7e","x":208,"y":1934,"width":216,"height":354,"type":"group","label":"repo1"},
+		{"id":"8fe1c3acb82cf094","x":467,"y":1938,"width":222,"height":342,"type":"group","label":"repo2"},
+		{"id":"ffb0eb3bcd6e7ad9","x":-940,"y":988,"width":204,"height":368,"type":"group","label":" 工作区"},
+		{"id":"a4cbe1483d3e0e8f","x":720,"y":1946,"width":197,"height":320,"type":"group","label":"demo"},
+		{"id":"d560ccbdcdbe7bfd","x":222,"y":1199,"width":220,"height":148,"type":"group","label":"main"},
+		{"id":"0047b34a775aafa9","x":222,"y":1407,"width":220,"height":133,"type":"group","label":"work"},
+		{"id":"c0e93042f361879e","x":-210,"y":720,"width":346,"height":62,"type":"text","text":".git(用来存储仓库的各种信息)"},
+		{"id":"211032657e8c5d56","type":"text","text":".git(配置文件)","x":-150,"y":1026,"width":173,"height":50},
+		{"id":"9569d3c045bc2efe","type":"text","text":"README.md","x":231,"y":1212,"width":173,"height":50},
+		{"id":"e655311873b5245f","type":"text","text":"README.md","x":231,"y":1409,"width":173,"height":50},
+		{"id":"827b4c2226ec6328","x":-891,"y":1652,"width":231,"height":50,"type":"text","text":"README(MAIN)}"},
+		{"id":"adba36b4f9b81fae","x":-900,"y":1880,"width":250,"height":60,"type":"text","text":"添加1.c\nmain分支(main)"},
+		{"id":"49df31ba00dce965","x":-900,"y":2160,"width":250,"height":60,"type":"text","text":"合并"},
+		{"id":"85b2d589bedc3dd0","x":-460,"y":1880,"width":250,"height":60,"type":"text","text":"work分支(work)"},
+		{"id":"9ff544e02a5df589","type":"text","text":"main","x":736,"y":1960,"width":156,"height":50},
+		{"id":"8d1b857a0b150f3b","x":638,"y":1237,"width":196,"height":53,"type":"text","text":"origin"}
+	],
+	"edges":[
+		{"id":"1018e24521f5d008","fromNode":"ffb0eb3bcd6e7ad9","fromSide":"right","toNode":"fddab9d4e5119090","toSide":"left","label":"add"},
+		{"id":"ec0d9273c7901de7","fromNode":"fddab9d4e5119090","fromSide":"right","toNode":"ac84aaf02152d9cb","toSide":"left","label":"commit"},
+		{"id":"8d0b9164bcdd77ab","fromNode":"211032657e8c5d56","fromSide":"right","toNode":"edef4dfc04fe847f","toSide":"top"},
+		{"id":"61ae4fb871b00bac","fromNode":"211032657e8c5d56","fromSide":"right","toNode":"3aa972b20541ea26","toSide":"top"},
+		{"id":"e49013786d5552ad","fromNode":"8d1b857a0b150f3b","fromSide":"bottom","toNode":"a4cbe1483d3e0e8f","toSide":"top"},
+		{"id":"36ed3db3bf9abef1","fromNode":"827b4c2226ec6328","fromSide":"bottom","toNode":"adba36b4f9b81fae","toSide":"top"},
+		{"id":"d583902329cd16c5","fromNode":"827b4c2226ec6328","fromSide":"right","toNode":"85b2d589bedc3dd0","toSide":"top"},
+		{"id":"82e853272b6a9223","fromNode":"85b2d589bedc3dd0","fromSide":"bottom","toNode":"49df31ba00dce965","toSide":"right"},
+		{"id":"22b59aafeb9594e3","fromNode":"adba36b4f9b81fae","fromSide":"bottom","toNode":"49df31ba00dce965","toSide":"top"},
+		{"id":"ec0fe291064591c1","fromNode":"d560ccbdcdbe7bfd","fromSide":"right","toNode":"8d1b857a0b150f3b","toSide":"left"},
+		{"id":"da61aac905c4c125","fromNode":"8d1b857a0b150f3b","fromSide":"left","toNode":"d560ccbdcdbe7bfd","toSide":"right"}
+	]
+}
