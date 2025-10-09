@@ -53,3 +53,6 @@ DELETE FROM table_name FROM table_name [WHERE 条件];
 ![[屏幕截图_20250924_132715.png]]
 ## DCL(Data Control Language)
 数据控制语言
+![[file-20251004163757267.png]]
+
+![[file-20251004165129612.png]]
