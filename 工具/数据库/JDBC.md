@@ -21,10 +21,17 @@ java DataBase connectivity
 
 # JDBC API详解
 ## DriverManager
+>[API](https://docs.oracle.com/en/java/javase/17/docs/api/java.sql/java/sql/DriverManager.html)
+  
 驱动管理类
 1. 注册驱动
 2. 获取数据库连接
 ## Connection
+1. 获取执行SQL的对象
+2. 管理事务
+![[file-20251029190622198.png]]
+![[file-20251029190630871.png]]
+
 
 ## Statement
 

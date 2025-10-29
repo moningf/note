@@ -16,7 +16,7 @@ USE 数据库名称;
 ### 表:
 ```sql
 --创建
-CREAT TABLE 表名 (
+CREATE TABLE 表名 (
 	字段一 数据类型,
 	字段二 数据类型
 );
@@ -67,10 +67,19 @@ DELETE FROM table_name FROM table_name [WHERE 条件];
 6. TRIM(str)                               ---去掉字符串头部和尾部的空格
 7. SUBSTRING(str,start,len)     ---返回从字符串str从start位置起的len个长度的字符串
 
-
 ## 数值函数
 
 ## 日期函数
 ## 流程函数
 
 
+# 约束
+![[file-20251029195253310.png]]
+
+![[file-20251029201146314.png]]
+
+![[file-20251029201407701.png]]
+
+
+## 多表查询
+![[file-20251029203319708.png]]
