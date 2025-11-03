@@ -34,10 +34,12 @@ java DataBase connectivity
 
 
 ## Statement
+![[file-20251030202424249.png]]
 
 ## ResultSet
+![[file-20251030203725877.png]]
 
 ## PreparedStatement
-
+![[file-20251030214736611.png]]
 # 数据库连接池
- 
+ ![[file-20251031145141574.png]]
