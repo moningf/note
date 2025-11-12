@@ -83,3 +83,7 @@ DELETE FROM table_name FROM table_name [WHERE 条件];
 
 ## 多表查询
 ![[file-20251029203319708.png]]
+
+## 事务隔离级别
+
+
