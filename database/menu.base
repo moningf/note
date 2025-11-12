@@ -1,0 +1,58 @@
+model:
+  version: 1
+  kind: Table
+  columns: []
+pluginVersion: 1.0.0
+views:
+  - type: table
+    name: java
+    filters:
+      and:
+        - file.hasTag("java")
+        - file.ext == "md"
+    order:
+      - file.name
+      - file.mtime
+      - file.path
+      - file.tags
+    sort:
+      - property: file.path
+        direction: ASC
+      - property: file.ctime
+        direction: ASC
+    columnSize:
+      file.mtime: 156
+      file.path: 253
+  - type: table
+    name: python
+    filters:
+      and:
+        - file.hasTag("py_api", "python")
+    order:
+      - file.name
+      - file.mtime
+      - file.path
+      - file.tags
+  - type: table
+    name: shell
+    filters:
+      and:
+        - file.hasTag("shell")
+    order:
+      - file.name
+      - file.mtime
+      - file.path
+      - file.tags
+    sort:
+      - property: file.embeds
+        direction: ASC
+  - type: table
+    name: 数据库
+    filters:
+      and:
+        - file.hasTag("sql_api", "sql")
+    order:
+      - file.name
+      - file.mtime
+      - file.folder
+      - file.tags

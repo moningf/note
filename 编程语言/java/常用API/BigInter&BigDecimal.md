@@ -1,3 +1,8 @@
+---
+tags:
+  - java
+  - java_api
+---
 # BigInter
 大整数
 >[BIgInterAPI](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/math/BigInteger.html)

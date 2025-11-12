@@ -1,3 +1,8 @@
+---
+tags:
+  - java
+  - java_api
+---
 >[ArraysAPI](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Arrays.html)
 ```
 Moudle(java.base)

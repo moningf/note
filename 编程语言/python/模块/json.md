@@ -1,3 +1,8 @@
+---
+tags:
+  - python
+  - py_api
+---
 ```python
 import json
 #准备符合=json的py数据

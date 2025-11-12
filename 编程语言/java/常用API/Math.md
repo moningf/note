@@ -1,3 +1,8 @@
+---
+tags:
+  - java
+  - java_api
+---
 >[Math的API](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Math.html)
 
 ``` title:模块模型

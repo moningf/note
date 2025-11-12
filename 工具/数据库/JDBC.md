@@ -1,3 +1,8 @@
+---
+tags:
+  - sql_api
+  - sql
+---
 java DataBase connectivity
 **java语言操作数据库**
 ![[file-20251112170538150.png]]

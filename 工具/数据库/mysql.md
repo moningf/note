@@ -1,3 +1,7 @@
+---
+tags:
+  - sql
+---
 # SQL命令
 ## DDL(Data Definition language)
 数据定义语言
