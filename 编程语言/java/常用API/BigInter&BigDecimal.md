@@ -17,9 +17,9 @@ java.lang.Object
 	    └──java.math.BigInter
 ```
 
-![[file-20251017170458278.png]]
-![[file-20251017181101029.png]]
-![[file-20251017181456926.png]]
+![[file-20251112170514041.png]]
+![[file-20251112170514099.png]]
+![[file-20251112170514182.png]]
 
 # BigDecimal
 >[BigDecimal](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/math/BigDecimal.html)
@@ -38,9 +38,9 @@ java.lang.Object
 	    └──java.math.BigDecimal
 ```
 
-![[file-20251017183021140.png]]
+![[file-20251112170514260.png]]
 
-![[file-20251020190902847.png]]
+![[file-20251112170514315.png]]
 
-![[file-20251020192759813.png]]
+![[file-20251112170514381.png]]
 

@@ -13,6 +13,6 @@ Moudle(java.base)
 	  └──Class(Math)
 ```
 
-![[file-20251016202540853.png]]
+![[file-20251112170515093.png]]
 
 random()实际是通过创建Random对象实现的

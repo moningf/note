@@ -50,12 +50,12 @@ DELETE FROM table_name FROM table_name [WHERE 条件];
 
 ## DQl(Data Query Language)
 数据查询语言
-![[屏幕截图_20250924_132715.png]]
+![[file-20251112170538707.png]]
 ## DCL(Data Control Language)
 数据控制语言
-![[file-20251004163757267.png]]
+![[file-20251112170538790.png]]
 
-![[file-20251004165129612.png]]
+![[file-20251112170538852.png]]
 
 # 函数
 ## 字符串函数
@@ -74,15 +74,15 @@ DELETE FROM table_name FROM table_name [WHERE 条件];
 
 
 # 约束
-![[file-20251029195253310.png]]
+![[file-20251112170538960.png]]
 
-![[file-20251029201146314.png]]
+![[file-20251112170539024.png]]
 
-![[file-20251029201407701.png]]
+![[file-20251112170539118.png]]
 
 
 ## 多表查询
-![[file-20251029203319708.png]]
+![[file-20251112170539167.png]]
 
 ## 事务隔离级别
 

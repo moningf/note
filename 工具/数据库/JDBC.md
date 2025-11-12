@@ -1,6 +1,6 @@
 java DataBase connectivity
 **java语言操作数据库**
-![[屏幕截图_20250924_134642.png]]
+![[file-20251112170538150.png]]
 # JDBC快速入门
 ```java
  //1. 注册驱动
@@ -29,17 +29,17 @@ java DataBase connectivity
 ## Connection
 1. 获取执行SQL的对象
 2. 管理事务
-![[file-20251029190622198.png]]
-![[file-20251029190630871.png]]
+![[file-20251112170538194.png]]
+![[file-20251112170538242.png]]
 
 
 ## Statement
-![[file-20251030202424249.png]]
+![[file-20251112170538428.png]]
 
 ## ResultSet
-![[file-20251030203725877.png]]
+![[file-20251112170538479.png]]
 
 ## PreparedStatement
-![[file-20251030214736611.png]]
+![[file-20251112170538555.png]]
 # 数据库连接池
- ![[file-20251031145141574.png]]
+ ![[file-20251112170538604.png]]
