@@ -16,6 +16,8 @@ views:
       - file.path
       - file.tags
     sort:
+      - property: file.mtime
+        direction: DESC
       - property: file.name
         direction: ASC
       - property: file.path
